@@ -1,0 +1,66 @@
+.main {
+    background: burlywood;
+    padding: 5px;
+}
+.headline {
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
+.bottles-container {
+    flex: 1;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.bottle {
+    border: 1px solid steelblue;
+    text-align: center;
+    padding: 10px 5px;
+}
+.img {
+    width: 100%;
+}
+.add-btn {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid tomato;
+    background: tomato;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+.add-btn:hover {
+    color: white;
+}
+.cart-container {
+    width: 300px;
+    border: 1px solid steelblue;
+    text-align: center;
+    padding: 10px 5px;
+    height: fit-content;
+}
+.cart {
+    text-decoration: underline;
+}
+.cart-items {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.cart-items img {
+    width: 100%;
+}
+.cart-items button {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid tomato;
+    background: tomato;
+    transition: 0.3s ;
+}
+.cart-items button:hover {
+    color: white;
+}
